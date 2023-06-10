@@ -102,7 +102,6 @@ print("Generated text: ", model.text_tokenizer.decode(generated_text[0]))
 
 An example for video.
 ``` python
-``` python
 import mimetypes
 import os
 from io import BytesIO
