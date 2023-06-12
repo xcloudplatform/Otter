@@ -30,6 +30,12 @@ The MIMIC-IT dataset is stored in the following format:
 
 ```
 
+access to dataset requested
+
+checkpoints: https://entuedu-my.sharepoint.com/personal/libo0013_e_ntu_edu_sg/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Flibo0013%5Fe%5Fntu%5Fedu%5Fsg%2FDocuments%2FMIMIC%2DIT%2DRelease&ga=1
+
+
+
 
 
 
