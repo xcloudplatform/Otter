@@ -70,7 +70,15 @@ SRC simple ASM like language for large Python/Rust source code projects orchestr
 
 TXT BotVM is a virtual machine with semi natural ASSEMBLY language. It's main purpose - developement and execution of Github/Google Cloud centric Code generation/integration systems. 
 
+LOAD UnrealEnginePodcasts.mp4 s
 
+#### Youtube channels to turn to desktop automation
+
+##### Unreal Engine for Fortnite / Unreal Engine 5.0
+
+  - https://www.youtube.com/@UnrealEngine
+  - https://www.youtube.com/c/unrealsensei
+  - https://www.youtube.com/@WahlbeckWarforge
 
 
 
