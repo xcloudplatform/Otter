@@ -1,3 +1,11 @@
+TXT 
+
+## Monetization:
+
+<img width="1064" alt="Screenshot 2023-06-12 at 8 58 21 AM" src="https://github.com/xcloudplatform/Otter/assets/135233930/7c43bf78-7121-4579-90db-94df031b5bd0">
+
+
+
 DATA https://github.com/Luodian/Otter/tree/main/mimic-it
 
 EXEC https://ottervideo.cliangyu.com/
