@@ -1,3 +1,39 @@
+The MIMIC-IT dataset is stored in the following format:
+
+```
+{  
+  "meta": {  
+    "version": "0.0.1",  
+    "time": "2023-06",  
+    "author": "ntu"  
+  },  
+  "data": {  
+    "DC_04_INS_00001": {  
+      "instruction": "Who is the main focus of the video?",  
+      "answer": "The main focus of the video is a police officer riding a horse down the street.",  
+      "image_ids": [  
+        "DC_04_IMG_v_N1c3C_Npr-E_0000",  
+        "DC_04_IMG_v_N1c3C_Npr-E_0001",  
+        ...  
+        "DC_04_IMG_v_N1c3C_Npr-E_0067"  
+      ],  
+      "rel_ins_ids": [  
+        "DC_04_INS_00002",  
+        "DC_04_INS_00003",  
+        ...  
+        "DC_04_INS_00008"  
+      ]  
+    },  
+    ...  
+  }  
+}  
+
+```
+
+
+
+
+
 <p align="center" width="100%">
 <img src="https://i.postimg.cc/MKmyP9wH/new-banner.png"  width="80%" height="80%">
 </p>
