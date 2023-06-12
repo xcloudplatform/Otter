@@ -58,7 +58,10 @@ SRC simple ASM like language for large Python/Rust source code projects orchestr
 6. Keep a copy of the github Org synced by git with github in the local folder
 7. Develop repositories by executing github issues (request diff only from llm, supply relevant to issue/codebase that should be modified context from vector storage), posting result to github issue and into bot-develop branch
 8. If other repository needs to be changed, create `.todo.request.issue-33.md` file in relevant directory in filesystem
-9. 
+
+
+TXT BotVM is a virtual machine with semi natural ASSEMBLY language. It's main purpose - developement and execution of Github/Google Cloud centric Code generation/integration systems. 
+
 
 
 
