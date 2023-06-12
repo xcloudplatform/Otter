@@ -39,7 +39,22 @@ HU access to dataset requested
 
 ML checkpoints: https://entuedu-my.sharepoint.com/personal/libo0013_e_ntu_edu_sg/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Flibo0013%5Fe%5Fntu%5Fedu%5Fsg%2FDocuments%2FMIMIC%2DIT%2DRelease&ga=1
 
-SRC simple ASM like language for large Python/Rust source code projects orchestation
+SRC simple ASM like language for large Python/Rust source code projects orchestration: CI, static analysis, automatic test running/results reporting over Rocket Rust webservice hosted Rust egui UI interface with RDP into managed by the Rocket Rust webservice hosted Rust egui UI interface app that provides user with list of the remote desktops that are available for control. 
+
+## Code Autogeneration: 
+
+1. Injest full github-org repo into the Codebase dataset. 
+2. Query Codebase dataset for dependencies. (Optimize using any vector db embeddings, make embeddings of the responses of the llm on the queries: "what functions/classes/variables/other/characters/places/names/personal infromation/image generatable entities first level language entities in this document")
+3. Make LLM answer query: "what is the dependencies of this code?" and to compare dependencies already present in the database with response
+4. Injest fetched from github recommended Codebase dataset + 2 levels of depth
+5. Bot: per message, tries to execute a command for BotVM.
+  - ### Bot VM Command:
+    - Should be highlighted as syntax of `.botVM` text files in VSCode via VSCode/TS extension
+    - Can create following tasks:
+       - new `BVMWorkload`, optional `tag`
+       - new `BVMDataInjestion`, optional `tag`, optional `metadata`
+       - new `BVMChatInteraction`, required `from`, required `to`, 
+       - new `BVMSpawn`, required `id`, 
 
 
 
